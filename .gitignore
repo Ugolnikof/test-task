@@ -1,4 +1,5 @@
 target/
+allure-results/
 .allure
 
 ### IntelliJ IDEA ###
