@@ -1,0 +1,14 @@
+services:
+  selenium-test:
+    build: .
+    container_name: popup-test
+    environment:
+      - MAVEN_OPTS=-Xmx512m
+    volumes:
+      - ./allure-results:/app/target/allure-results
+    networks:
+      - test-network
+
+networks:
+  test-network:
+    driver: bridge

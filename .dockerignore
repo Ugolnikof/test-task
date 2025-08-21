@@ -1,0 +1,7 @@
+.git
+.gitignore
+*.iml
+.idea
+target
+allure-results
+.DS_Store
